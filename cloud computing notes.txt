@@ -1,0 +1,45 @@
+in real time one application will be hosted in multiple servers for high availability and load balancing.
+there will be load balancer in front of our servers
+request will be distributed among those servers
+they need to scale the servers according to load or customer traffic
+if it is on premise it will take lot of time to setup and scale the servers. but on cloud within fraction of seconds we create the servers and scale the servers
+companies needs to spend more money to purchase and maintain the servers in on premise infra,power supply, cooling system and maintain people.
+business requirements: high availability- there should not be downtime in our application, app should be highly available,
+fault tolerance- application should continue to run eventhough there is some faulure in servers, failure in software or hardware
+scalability-based on the demand we should be able to scale our servers
+elasticity- whenever there is a load it has to increase the no of servers, whenever there is less load it has to decrease the no of servers.so this is called elasticity.dynamically scaling.
+if it is on premise it very difficult to achieve these requirements. so business expecting these requirements.
+it will be able to deploy our application quickly on cloud.
+cloud providers are going to manage the infrastructure like aws azure gcp
+what is cloud computing- it is delivery of computing services like servers, databases,networking, storage, softwares,analytics,softwares, and more over the internet
+cloud service is a service made available to users on demand via the internet from a cloud providers servers those services are servers databases storage softwares and many more things
+cloud provider or vendor - is the organization who provides the cloud services ex; aws azure gcp etc., are providing infrastructure services
+we need to isolate the apps so we cannot deploy all apps in single server. if tomcat server has any problem the two or more apps are gonna be affected so that is where virtualization comes 
+into picture. using virtualization(software) concept we can setup multiple isolated servers(vms) on top of a physical machine ex of virtualization softwares; hyper v hypervisor oracle 
+virtual box.
+what virtualiztion software is aws using?
+ans) citrix-xen
+to use infrastructure resources  more efficiently people are using virtualization concepts.
+ec2 is a infrastructure as a service model
+kubernetes,EKS is a platform as a service model  
+cloud watch,rds is a software as a services model, we just use these softwares. the total software will be available for us. we no need to develop the softwares.
+in paas we just deploy our applications.
+cloud models- public cloud private cloud hybrid cloud
+public cloud- anybody can create their own infrastructure. this infra is shared between multiple tenants. ex; aws azure gcp etc., 
+private cloud- the underlying infra will not be shared. it is dedicated for only one company or org . it is dedicated like your own cloud. like private datacenters,own cloud.
+hybrid cloud- its combination of public and private cloud. for app some data will be hosted in private cloud and and few servers wll be hosted in public cloud. some projects will use 
+hybrid cloud model.
+aws is all about "infrastructure" -servers storage networks databases load balancers softwares. to host any application we need this infrastructure.
+aws provides on demand cloud computing platforms. 
+adv of aws- cost effectiveness, pay as you go- you pay for what you have used or created.
+            - elaticity and agility- faster time to market, within fraction of seconds we can host my applications 
+            - flexibility and openness- we can create and terminate servers whenever we want
+            - security- aws is having a lot of security services to protect the data.
+            - reliable and high performance- 
+without having infra we cannot host our application or deploy the application.
+aws is hosting their services across the globe. 
+high availability by using regions and availability zones
+charges based on the regions not on az
+
+            
+
