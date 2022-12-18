@@ -1,0 +1,79 @@
+ec2 is your computer in cloud
+it provides scalable computing capacity in the aws cloud(instance sizes)
+based on the requirement we can create no of servers, we can configure security, networking, ans manage storage(while launching the server)
+EBS stores the data for that ec2 instance.
+ec2 purchasing options: 
+on-demand:
+most expensive purchasing option,
+most flexible purchasing option
+you are charged only when the instance is running(billed by hour)
+you can provision/terminate the instance anytime
+Reserved:
+we can purchase the instance for time period(1-3 yrs)
+significant price discount
+once you buy a reserved instance,we are responsible for the entire price, regardless of how often you use it.
+spot:
+amazon sells the unused instances,for short time at lower price.
+spot price fluctuate based on the supply and demand in the market.
+charged by hour
+it is like bidding process whoever quotes more money they get the spot instance.
+this is not for actual deployments. 
+for less amount of time you need high configuration server with less price you can go for spot instances.
+ 
+in aws account we create on demand instances generally.
+Dedicated host or instance:
+the underlying hardware will not be shared with other tenants.
+vpc and IAM are not chrageable and other all services are chrageable.
+how are we charged for using ec2?
+ans) purchasing options
+     on demand
+     reserved
+     spot
+   instance family and type
+   general purpose 
+   compute optimised
+   GPU optimised
+   Memory optimised
+   storage optimised
+ EBS Optimised(option for higher IOPS performance)
+AMI type(price varies on distribution/software packages)
+    linux
+    windows
+data transfer(in/out of the instance)
+regions
+aws offering 30gb of ebs storage in a freetier account
+
+AMI:
+its a preconfigured package required to launch an ec2 instance.it includes os and software packages(like git nano editor curlwget packages etc., ) and other settings.
+AMI provides the information required to launch the instance, which is virtual server in the cloud.
+we can launch as many instances from the AMI as you need
+when we launch an ec2 we first select ami
+we have 3 types of AMIs 
+1) community AMI 
+     -free to use
+     -generally it contains only os
+2) aws marketplace AMIs
+     -pay to use 
+     -it comes with os and some additional licensed softwares
+3) my AMIs 
+   that amis you can create yourself
+we can create AMIs by using packer softwares also
+in realtime we will have high configuration servers
+i am trying to terminate the instance but i am getting some warning what can be the reason?
+ans) you have enabled the termination protection
+what is userdata in aws?
+userdata or bootstrapping script we use userdata when we want to execute some commands or install some softwares while lauchilng the server.
+when i am creating an ec2 server in the background it is going to create EBS service ebs is storage for our server. based on ami it will take storage
+how do you measure the storage performance?
+by using IOPS -input ouput operations per second per gb.
+general purpose ssd and provisioned IOPS and magnetic. you can attach this root volume to any server.
+tags are used for identification purpose.
+pem file is private key. public key will be part of the server.
+aws is all about infrastructure like servers storage database network.first of all you need to have infrastructure then only we can deploy our applications and softwares like jekins maven.
+
+ 
+
+ 
+
+
+
