@@ -60,3 +60,18 @@ shift + g - end of the file
 :line_number - to  jump line
 :se nu - show line no.
 :se nonu - hide line no.
+
+
+
+========================================================
+GIT COMMANDS
+========================================================
+git clone -> for cloning any repo.
+git init -> for initialization a repo
+git status -> check status of file is it new or old
+git add file_name -> for adding file to repo
+git commit -m 'msg' -> for adding comment for it.
+git push -> for pushing the changes or files in repo,
+git pull -> for pulling the new changes.
+git restore -> for reverting the last changes.
+
