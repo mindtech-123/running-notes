@@ -71,6 +71,9 @@ git init -> for initialization a repo
 git status -> check status of file is it new or old
 git add file_name -> for adding file to repo
 git commit -m 'msg' -> for adding comment for it.
+git remote add alias_name url -> for linking remote repo to localsystems -> after this
+git push alias_name branch_name -> for first time only
+git branch -> show all branches
 git push -> for pushing the changes or files in repo,
 git pull -> for pulling the new changes.
 git restore -> for reverting the last changes.
