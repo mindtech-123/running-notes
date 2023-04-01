@@ -1,0 +1,62 @@
+========================================================
+Terminal Commonds
+========================================================
+mkdir -> for make dir
+cp / scp -r -> for copy
+scp -r slect_file reciever_ip /select_dir -> then password => for coping files b/w two servers
+rm -rf -> for remove file
+cd -> change dir
+clear -> clear screen
+exit  -> exit from terminal
+grep -ril | -rill -> graping any words | searching also
+pwd -> present working dir
+ls -> list
+chmod -R 777 -> full per (r,w,exe)
+ifconfig | grep inet -> for getting server ip in short
+pkill - for killing the process 
+screen wipe -> show the running programs
+ls -l - detail list
+df -h - check size
+df -T - type check
+top - for showing system process
+zip -r final_file.zip original_file - for creating zip file
+unzip file_name -> for unzip
+tar -xvf - unzip tar file
+kill -9 (code) -> kill the process using port no.
+yum install -y (file)
+remove file_name - for uninstalling
+yum / make unistall (file) -> same
+ping - ip is working or not checking
+wget - for download from any url/link
+history - history of used commands
+locate -i file_name -> rearch in holl file
+find file_name -> same as above
+git clone -> for cloning the repo
+ctrl + r - for reverse searching
+crontab -l -> list of crontab
+crontab -e -> edit
+crontab -r -> remove
+Q. how to give grant permission add uses
+Q. server encryption samb1
+Q, what is domain and hosting - hotingier.in/com
+
+========================================================
+vim commands
+========================================================
+vim editor
+vim file_name-  use for both (create and open)
+/w - save
+/q - exit
+/wq - save & exit
+/search
+/search/case
+yy - copy
+dd - delete
+p - paste
+u - undo
+gg - go to top
+ctrl + r - redo
+shift + g - end of the file
+:line_number - to  jump line
+:se nu - show line no.
+:se nonu - hide line no.
